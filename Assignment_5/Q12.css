@@ -13,12 +13,37 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
   }
-.page{
-    width:100vh;
-    height: 100vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-color: #f0f0f0;
+
+
+
+header {
+  text-align: center;
+  padding: 20px;
 }
+
+button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  button.dark-theme {
+    background-color: #bb86fc;
+  }
+  
+  button.dark-theme:hover {
+    background-color: #3700b3;
+  }
